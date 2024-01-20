@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.counter {
+  display: flex;
+  align-items: baseline;
+  height: 60px;
+  width: 300px;
+  margin: 1rem auto;
+  text-align: center;
+  padding: 5px;
+  border: 1px solid;
+  background-color: aqua;
+}
+
+.counter * {
+  height: 100%;
+  flex: auto;
+  font-size: 24px;
+}
+
+.sum {
+  margin: 2px;
+  text-align: center;
+  padding: 2px;
+}
+
+.btn-add {
+  flex: auto;
+  margin: 10px;
+  text-align: center;
+}
+.app {
+  flex: auto;
+  text-align: center;
+  margin: 15px;
+  /* color: rgba(2, 13, 88, 0.885); */
+}
